@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 900,
+    "id" : "https://mrcummings.github.io/dhsi_2024_inclass/images/1957-06_010/canvas/",
+    "label" : {
+      "none" : [ "1957-06_010" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://mrcummings.github.io/dhsi_2024_inclass/images/1957-06_010/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://mrcummings.github.io/dhsi_2024_inclass/images/1957-06_010/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 29,
+              "height" : 19
+            }, {
+              "width" : 57,
+              "height" : 38
+            }, {
+              "width" : 113,
+              "height" : 76
+            }, {
+              "width" : 225,
+              "height" : 152
+            }, {
+              "width" : 450,
+              "height" : 304
+            }, {
+              "width" : 900,
+              "height" : 607
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 900,
+            "@id" : "https://mrcummings.github.io/dhsi_2024_inclass/images/1957-06_010",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 607
+          } ],
+          "format" : "image/jpeg",
+          "width" : 900,
+          "id" : "https://mrcummings.github.io/dhsi_2024_inclass/images/1957-06_010/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 607
+        },
+        "target" : "https://mrcummings.github.io/dhsi_2024_inclass/images/1957-06_010/canvas/"
+      } ]
+    } ],
+    "height" : 607
+  }, {
     "width" : 919,
     "id" : "https://mrcummings.github.io/dhsi_2024_inclass/images/1957-06_008/canvas/",
     "label" : {
